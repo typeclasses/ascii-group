@@ -16,7 +16,7 @@ license-file: license.txt
 author: Chris Martin
 maintainer: Chris Martin, Julie Moronuki
 
-homepage: https://github.com/typeclasses-group/ascii
+homepage: https://github.com/typeclasses/ascii-group
 bug-Reports: https://github.com/typeclasses/ascii-group/issues
 
 extra-doc-files: *.md
