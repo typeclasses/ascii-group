@@ -1,3 +1,7 @@
+### 1.0.0.15 (2023-01-02)
+
+Minor Cabal correction (change `extra-doc-files` to `extra-source-files`)
+
 ### 1.0.0.14 (2022-12-27)
 
 Metadata changes only
