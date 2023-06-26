@@ -1,3 +1,7 @@
+### 1.0.0.16 (2023-06-26)
+
+Raise language to GHC2021
+
 ### 1.0.0.15 (2023-01-02)
 
 Minor Cabal correction (change `extra-doc-files` to `extra-source-files`)
