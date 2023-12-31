@@ -1,7 +1,7 @@
 cabal-version: 3.0
 
 name: ascii-group
-version: 1.0.0.16
+version: 1.0.0.17
 synopsis: ASCII character groups
 category: Data, Text
 
@@ -17,13 +17,9 @@ author: Chris Martin
 maintainer: Chris Martin, Julie Moronuki
 
 homepage: https://github.com/typeclasses/ascii-group
-bug-Reports: https://github.com/typeclasses/ascii-group/issues
+bug-reports: https://github.com/typeclasses/ascii-group/issues
 
 extra-source-files: *.md
-
-source-repository head
-    type: git
-    location: git://github.com/typeclasses/ascii-group.git
 
 common base
     default-language: GHC2021
@@ -34,7 +30,7 @@ common base
 
     build-depends:
       , ascii-char ^>= 1.0
-      , base ^>= 4.16 || ^>= 4.17 || ^>= 4.18
+      , base ^>= 4.16 || ^>= 4.17 || ^>= 4.18 || ^>= 4.19
 
 library
     import: base
@@ -48,7 +44,7 @@ library
         StandaloneDeriving
 
     build-depends:
-      , hashable ^>= 1.4.2
+      , hashable ^>= 1.4.0
 
     exposed-modules:
         ASCII.Group
@@ -61,7 +57,7 @@ test-suite test-ascii-group
 
     build-depends:
       , ascii-group
-      , hedgehog ^>= 1.1.2 || ^>= 1.2
+      , hspec ^>= 2.10 || ^>= 2.11
 
     default-extensions:
         OverloadedStrings
